@@ -1,8 +1,7 @@
 ### CO332 - Heterogenous Parallel Computing
-# Assignment 2
 ```
-Sagar Bharadwaj - 15CO141
-Aneesh Aithal   - 15CO107
+Sagar Bharadwaj
+Aneesh Aithal
 ```
        
        
