@@ -5,7 +5,7 @@ Aneesh Aithal
 ```
        
        
-### Q1
+### Vector Addition - Thrust Library
 *Performing vector addition using the **Thrust** library*     
 <br>
 10 datasets were generated on a single pair of input files called `input0.raw` and `input1.raw`.         
@@ -24,7 +24,7 @@ The final result can be stored in a separate file.
 To do so : `./a.out output.raw input0.raw input1.raw result.raw`
 
 <br><br>
-### Q2
+### Image Blur
 *Blurring an image*<br><br>
 A header file called `ppmHelper.h` was written for the purpose of reading and writing into .ppm files.        
 Some new structures namely `PPMpixel`, `PPMimg`, `PPMpixelM` and `PPMimgM` are created. The purpose of each structure is mentioned as a comment.<br><br>
@@ -32,7 +32,7 @@ Some new structures namely `PPMpixel`, `PPMimg`, `PPMpixelM` and `PPMimgM` are c
 <br><br>
 Input File : `texture.ppm`<br>
 Many sample outputs named `blur(X).ppm` are included in the archive. The number suffix indicates the value of the `BLUR_SIZE` used to 
-generate the output. Higher the `BLUR_SIZE` more blurred is the imagex.<br>
+generate the output. Higher the `BLUR_SIZE` more blurred is the image.<br>
 
 **Running the program**
 ```
@@ -41,7 +41,7 @@ nvcc solution.cu
 ```
 
 <br><br>
-### Q3
+### Color to Mono
 *RGB image to **grayscale** image*.<br><br>
 The same header file `ppmHelper.h` was used for reading and writing into a .ppm image file.
 <br>
@@ -54,8 +54,8 @@ nvcc solution.cu
 ```
 
 <br><br>
-### Q4
-*Matrix multiplication*
+### Matrix Multiplication
+*Perform Matrix multiplication*
 <br><br>
 
 10 datasets were generated. Each dataset contains two input files and one expected output file.<br>
@@ -73,7 +73,7 @@ nvcc q4.cu
 Replace *dataset_number* by an integer from 0-9
 
 <br><br>
-### Q5
+### Optimized Matrix Multiplication
 *Tiled matrix multiplication*
 <br><br>
 
