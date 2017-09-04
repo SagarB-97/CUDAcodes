@@ -82,7 +82,7 @@ The same dataset generator that was used in the previous question is used here.<
 <br>
 Input file  : `input-0-dataset_number.raw` and `input-1-dataset_number.raw`<br>
 Output file : `output-dataset_number.raw`<br>
-<br><br><br><br>
+<br><br>
 **Running the Program**
 ```
 g++ dataset_gen.cpp
