@@ -92,6 +92,79 @@ nvcc q5.cu
 ```
 Replace *dataset_number* by an integer from 0-9
 
+<br><br>
+### Histogram - Numbers
+*Histogram - Integers*
+<br><br>
+`input.raw` and `output.raw` are created using `dataset_generator.cpp`
+<br><br>
+**Running the program**
+```
+g++ dataset_generator.cpp
+./a.out
+nvcc solution.cu
+./a.out ouput.raw input.raw
+```
+
+
+<br><br>
+### Histogram - ASCII
+*Histogram - ASCII characters*
+<br><br>
+`input.txt` and `expected_out.raw` are created using `dataset_generator.cpp`
+
+**Running the program**
+```
+g++ dataset_generator.cpp
+./a.out
+nvcc solution.cu
+./a.out expected_output.raw input.txt output.raw
+```
+
+The output generated can be stored in a separate file as shown above (`output.raw`); 
+
+<br><br>
+### Histogram sort (Thrust)
+*Thrust Histogram Sort*
+<br><br>
+`input.raw` and `output.raw` are created using `dataset_generator.cpp`.
+<br><br>
+**Running the Program**
+```
+g++ dataset_generator.cpp
+./a.out
+nvcc solution.cu
+./a.out ouput.raw input.raw
+```
+
+<br><br>
+### Convolution
+*Convoltuion*
+<br><br>
+`input_0.ppm` contains the input image/matrix and `input_1.raw` is the mask. `output.ppm` is the expected output.
+<br><br>
+**Running the Program**
+```
+g++ dataset_generator.cpp
+./.a.out
+nvcc solution.cu
+./a.out output.ppm input_0.ppm input_1.raw
+```
+
+<br><br>
+### Stencil-Tiling
+*7 point stencil*
+<br><br>
+3D matrices of varying sizes were created by using `dataset_generator.cpp`.
+
+**Running the Program**
+```
+g++ dataset_gen.cpp
+./a.out
+nvcc solution.cu
+./a.out input.ppm expected_output.ppm
+```
+
 
 
 

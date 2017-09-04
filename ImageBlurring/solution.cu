@@ -1,7 +1,7 @@
 #include "ppmHelper.h"
 #include "wb.h"
 #define THREADS_PER_BLOCK 512
-#define BLUR_SIZE 2
+#define BLUR_SIZE 6
 
 __global__ void blur(PPMpixel *inData,PPMpixel *outData,int width,int height)
 {
