@@ -1,4 +1,4 @@
-### CO332 - Heterogenous Parallel Computing
+### Heterogenous Parallel Computing
 ```
 Sagar Bharadwaj
 Aneesh Aithal
